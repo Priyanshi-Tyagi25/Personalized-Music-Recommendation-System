@@ -1,8 +1,8 @@
-# Personalised Music-Recommendation-System
+# Personalized Music-Recommendation-System
 A Music Recommendation System based on the user's mood, preferred language and collaborative filtering
 
 ## Overview
-This project is a **Personalised Music Recommendation System** that provides personalized song suggestions based on a user's mood, preferred language, and optionally, a reference song. The application uses **collaborative filtering** and **content-based filtering** techniques to recommend songs and is built using **Python** and **Streamlit** for user interaction.
+This project is a **Personalized Music Recommendation System** that provides personalized song suggestions based on a user's mood, preferred language, and optionally, a reference song. The application uses **collaborative filtering** and **content-based filtering** techniques to recommend songs and is built using **Python** and **Streamlit** for user interaction.
 
 ## Features
 1. **Mood-based Recommendations**: Suggests songs based on the user's selected mood (e.g., Happy, Sad).
