@@ -9,10 +9,10 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 
-# Sample dataset (replace with your actual dataset)
+# spotify dataset 
 df=pd.read_csv("SPOTIFY_DATASET_FOR_RECOMMENDATION.csv")
 
-# Preprocessing: Encode categorical features for mood and language
+# Data Preprocessing: Encode categorical features for mood and language
 df['mood_encoded'] = df['mood'].astype('category').cat.codes
 df['language_encoded'] = df['language'].astype('category').cat.codes
 
